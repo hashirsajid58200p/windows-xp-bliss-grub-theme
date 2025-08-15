@@ -1,0 +1,43 @@
+# Main options
+title-text: ""
+desktop-image: "assets/background.jpg"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0%"
+terminal-top: "0%"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu (centered block)
++ boot_menu {
+    left = 35%              # Start position from left (centers the block)
+    top = 35%               # Start position from top
+    width = 30%             # Width of menu block
+    height = 40%            # Height of menu block
+    align = "center"        # Center align the text inside
+    item_font = "Retro Gaming Regular 22"
+    item_color = "#374c16"
+    selected_item_color = "#ffffff"
+
+    icon_height = 30
+    icon_width = 30
+    item_icon_space = 4
+    item_height = 37
+    item_padding = 0
+    item_spacing = 6
+    selected_item_pixmap_style = "select_*.png"
+}
+
+# Countdown (centered block under menu)
++ label {
+    left = 36%
+    top = 90%
+    width = 30%
+    align = "center"
+    id = "__timeout__"
+    text = "In %ds, the path is chosen  "
+    color = "#cedbf2"
+    font = "Retro Gaming Regular 22"
+}
