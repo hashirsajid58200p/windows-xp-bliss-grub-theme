@@ -1,6 +1,6 @@
-## Goku UI Preview
+## Windows xp Bliss Preview
 
-![Goku UI](preview.jpg)
+![Windows xp Bliss](preview.jpg)
 
 ---
 
